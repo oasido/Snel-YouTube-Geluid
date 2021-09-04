@@ -1,0 +1,39 @@
+#same_line {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 2rem 0;
+}
+
+#input_box {
+  width: 70%;
+}
+
+#download_button {
+  margin: 1.5rem auto 0 auto;
+  display: block;
+}
+
+#loading {
+  margin: 1rem 0;
+  justify-content: center;
+  display: none;
+}
+
+#loading img {
+  max-width: 20px;
+  max-height: 20px;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 470px) {
+  #input_box {
+    width: 50vw;
+  }
+}
+
+footer {
+  border-top-style: dashed;
+  border-top-width: 0.2rem;
+  text-align: right;
+  color: lightslategray;
+}

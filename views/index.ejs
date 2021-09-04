@@ -1,0 +1,24 @@
+<%- include('layouts/top.ejs') %>
+
+<form action="" method="post">
+  <h1><%= titleName %></h1>
+  <p><%= description %></p>
+  <div id="same_line">
+    <input id="input_box" name="input_box" type="text" />
+    <select name="format_selection" id="format_selection">
+      <option>mp3</option>
+      <option>aac</option>
+      <option>m4a</option>
+      <option>ogg</option>
+      <option>wav</option>
+      <option>webm</option>
+    </select>
+  </div>
+  <button id="download_button" name="download_button" type="submit">Downloaden</button>
+  <div id="loading">
+    <img src="/images/loading.gif" />
+    <label>Even geduld a.u.b.</label>
+  </div>
+</form>
+
+<%- include('layouts/bottom.ejs') %>
